@@ -1,1 +1,9 @@
-/*# sourceMappingURL=style.css.map */
+.border {
+  border: 2px solid rgb(154, 246, 7);
+}
+
+.navbarlinks {
+  color: #49FE79;
+  margin: 5px;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */
