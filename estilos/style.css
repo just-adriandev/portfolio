@@ -1,5 +1,5 @@
 .border {
-  border: 2px solid rgb(154, 246, 7);
+  border: 2px solid rgb(247, 3, 3);
 }
 
 .navbarlinks {
@@ -7,6 +7,13 @@
   padding: 5px;
 }
 
-li {
-  color: #49FE79;
-}/*# sourceMappingURL=style.css.map */
+.sobre-links a {
+  margin: 5px 3px;
+}
+
+.animation-1 {
+  
+}
+
+
+/*# sourceMappingURL=style.css.map */
