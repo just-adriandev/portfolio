@@ -1,5 +1,5 @@
 .border {
-  border: 2px solid rgb(247, 3, 3);
+  border: 2px solid rgb(154, 246, 7);
 }
 
 .navbarlinks {
@@ -12,8 +12,14 @@
 }
 
 .animation-1 {
-  
+  width: 400px;
+  height: 400px;
 }
 
+.font {
+  font-family: "Aoboshi One", serif;
+}
 
-/*# sourceMappingURL=style.css.map */
+.face {
+  margin-top: 40px;
+}/*# sourceMappingURL=style.css.map */
