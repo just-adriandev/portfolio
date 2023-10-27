@@ -10,9 +10,13 @@ $corextra: #5dfc90;
 
 .navbarlinks {
   margin: 5px;
-  padding: 5px;  
+  padding: 5px;
+
 }
 
+.navbar {
+  background-color: white;
+}
 
 .sobre-links a {
   margin: 5px 3px;
@@ -31,4 +35,51 @@ $corextra: #5dfc90;
 .face {
 margin-top: 80px;
 
+}
+
+.skills {
+  margin: 0px;
+  padding: 5px;
+  
+  img { 
+    opacity: 1;
+    transition: opacity 0.3s; 
+  }
+
+ img:hover {
+    opacity: 0.5; 
+  }
+
+
+  p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+}
+
+.sobre-mim-card {
+  margin-top: 150px;
+}
+
+.iconcv  {
+
+  a { 
+    opacity: 1;
+    transition: opacity 0.3s; 
+  }
+
+ a:hover {
+    opacity: 0.5; 
+  }
+}
+
+.navlinks {
+  font-size: 16px;
+  transition: font-size 0.3s;
+
+}
+
+.navlinks:hover {
+  font-size: 20px;
 }
