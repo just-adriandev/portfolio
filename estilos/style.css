@@ -75,7 +75,7 @@
   background-color: transparent;
   border: none;
 }
-.projectlinks button:hover {
+.projectlinks p button:hover {
   opacity: 0.5;
 }
 
