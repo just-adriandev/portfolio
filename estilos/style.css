@@ -63,4 +63,22 @@
 
 .navlinks:hover {
   font-size: 20px;
+}
+
+.projectlinks svg {
+  margin-right: 7px;
+}
+.projectlinks button {
+  opacity: 1;
+  transition: opacity 0.3s;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+.projectlinks button:hover {
+  opacity: 0.5;
+}
+
+.projetos-card {
+  margin-top: 200px;
 }/*# sourceMappingURL=style.css.map */

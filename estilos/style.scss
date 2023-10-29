@@ -84,3 +84,25 @@ margin-top: 80px;
   font-size: 20px;
 }
 
+.projectlinks {
+
+  svg {
+  margin-right: 7px;
+  }
+
+  button { 
+    opacity: 1;
+    transition: opacity 0.3s;
+text-decoration: none;
+background-color: transparent;
+border: none; 
+  }
+
+ button:hover {
+    opacity: 0.5; 
+  }  
+}
+
+.projetos-card {
+margin-top: 200px;
+}
