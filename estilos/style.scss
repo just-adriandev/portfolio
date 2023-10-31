@@ -1,8 +1,6 @@
-$corinterações: #f4f5f0;
-$corbackground: #e6dfd7;
-$corsecundaria: #c4c9cd;
-$corextra: #5dfc90;
-
+html {
+  scroll-behavior: smooth;
+}
 
 .border {
     border: 2px solid rgb(154, 246, 7);
@@ -62,8 +60,7 @@ margin-top: 80px;
   margin-top: 150px;
 }
 
-.iconcv  {
-
+.iconcv {
   a { 
     opacity: 1;
     transition: opacity 0.3s; 
@@ -84,29 +81,50 @@ margin-top: 80px;
   font-size: 20px;
 }
 
-.projectlinks {
-
-  svg {
-  margin-right: 7px;
-  }
-
-  button { 
-    opacity: 1;
-    transition: opacity 0.3s;
-    text-decoration: none;
-    background-color: transparent;
-    border: none; 
-  }
-
-p button:hover {
-    opacity: 0.5; 
-  }  
-}
 
 .projetos-card {
 margin-top: 200px;
 }
 
-.saibamais {
-  margin:
+.projectlinks {
+  a {
+  
+  margin: 5px;
+  color: black;
+  opacity: 1;
+  transition: opacity 0.3s;
+
+  }
+
+
+ a:hover {
+    opacity: 0.5; 
+  }
+}
+
+.contactlinks {
+  svg {
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  a {  
+  opacity: 1;
+  transition: opacity 0.3s;
+
+  }
+
+ a:hover {
+    opacity: 0.5; 
+  }
+}
+
+.contatos1 {
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
+.mt {
+  margin-top: 100PX;
 }

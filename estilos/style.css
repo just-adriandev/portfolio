@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .border {
   border: 2px solid rgb(154, 246, 7);
 }
@@ -65,20 +69,38 @@
   font-size: 20px;
 }
 
-.projectlinks svg {
-  margin-right: 7px;
+.projetos-card {
+  margin-top: 200px;
 }
-.projectlinks button {
+
+.projectlinks a {
+  margin: 5px;
+  color: black;
   opacity: 1;
   transition: opacity 0.3s;
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
 }
-.projectlinks p button:hover {
+.projectlinks a:hover {
   opacity: 0.5;
 }
 
-.projetos-card {
-  margin-top: 200px;
+.contactlinks svg {
+  margin-right: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.contactlinks a {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.contactlinks a:hover {
+  opacity: 0.5;
+}
+
+.contatos1 {
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
+.mt {
+  margin-top: 100PX;
 }/*# sourceMappingURL=style.css.map */
