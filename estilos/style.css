@@ -61,12 +61,15 @@ html {
 }
 
 .navlinks {
-  font-size: 16px;
+  font-size: 15px;
   transition: font-size 0.3s;
 }
 
 .navlinks:hover {
   font-size: 20px;
+}
+.navlinks:hover a {
+  color: #1F30E0;
 }
 
 .projetos-card {

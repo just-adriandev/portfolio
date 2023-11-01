@@ -1,3 +1,5 @@
+$cor : #1F30E0;
+
 html {
   scroll-behavior: smooth;
 }
@@ -72,13 +74,17 @@ margin-top: 80px;
 }
 
 .navlinks {
-  font-size: 16px;
+  font-size: 15px;
   transition: font-size 0.3s;
 
 }
 
 .navlinks:hover {
   font-size: 20px;
+  a {
+    color: $cor;
+  }
+  
 }
 
 
@@ -128,3 +134,4 @@ margin-top: 200px;
 .mt {
   margin-top: 100PX;
 }
+
