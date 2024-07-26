@@ -26,6 +26,11 @@ export const projectsType = defineType({
             type:'url',
         }),
         defineField({
+            name: 'linkgithub',
+            title: 'Githublink',
+            type:'url',
+        }),
+        defineField({
             name: 'tags',
             title: 'Tags',
             type:'array',

@@ -5,6 +5,7 @@ import { ModeToggle } from "./themeToggler";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, navigationMenuTriggerStyle } from "./ui/navigation-menu";
 import { usePathname } from "next/navigation";
 import { MobileNavbar } from "./mobileNavbar";
+import { cn } from "@/lib/utils";
 
 export const  navItems = [
     {
@@ -24,6 +25,7 @@ export const  navItems = [
 export function Navbar(){
 
     const pathname = usePathname()
+    
 
     return(
         <nav className="border-b bg-background h-[10vh] flex items-center">
@@ -41,7 +43,7 @@ export function Navbar(){
                                     {navItems.map((item, index) =>(
                                         <NavigationMenuItem key={index}>
                                             <Link href={item.href} legacyBehavior passHref>
-                                                <NavigationMenuLink active={pathname === item.href} className={navigationMenuTriggerStyle()}>{item.name}</NavigationMenuLink>
+                                                <NavigationMenuLink className={cn(pathname === item.href ? 'font-bold text-2xl bg-muted' : 'hover:bg-opacity-75%', 'hover:bg-opacity-75% hover:bg-muted group flex gap-x-4 p-3 text-1xl rounded-lg')}>{item.name}</NavigationMenuLink>
                                             </Link>
                                         </NavigationMenuItem>
                                     ))}
