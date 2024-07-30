@@ -12,7 +12,7 @@ export  function Hero() {
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className=" col-span-7 place-self-center text-center sm:text-left w-full sm:w-fit px-6 py-3">
                     <h1 className="mb-4 text-5xl sm:text-7xl font-extrabold">Oi, eu sou o Adrian!</h1>
-                    <p className="text-lg lg:text-xl mb-6 text-muted-foreground">
+                    <p className="text-lg lg:text-xl mb-6 text-muted-foreground h-[100px] ">
                         Desenvolvedor web full-stack, curioso profissional e apaixonado por 
                         <span className=' ml-2 text-primary'>
                         <TypeAnimation
@@ -42,7 +42,7 @@ export  function Hero() {
                         </span> 
                     </p>
 
-                    <div className='flex gap-x-3 h-12 md:h-16'>
+                    <div className='flex mx-auto gap-x-3 h-12 md:h-16'>
                     <a href="mailto:adrianspk1@gmail.com" target="_blank" rel="noopener noreferrer">
                         <Button variant={'secondary'} className='border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'>
                             <Mail className='w-4 h-4 mr-1'/> Entre em contato
