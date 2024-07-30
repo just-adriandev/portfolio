@@ -18,7 +18,7 @@ export default function Contacts() {
                     </p>
                 </div>
 
-                <div className=" mx-auto gap-x-10 flex flex-row">
+                <div className="mt-5 mx-auto gap-x-10 flex-row">
                 <Link target="_blank" href='https://github.com/just-adriandev'><Github width={40} height={40} className="hover:text-primary underline"/></Link>
                 <a href="mailto:adrianspk1@gmail.com" target="_blank" rel="noopener noreferrer"><Mail width={40} height={40} className="hover:text-primary underline"/></a>
                 <Link target="_blank" href='https://www.linkedin.com/in/adrian-gra%C3%A7a-5ab504226/'><Linkedin width={40} height={40} className="hover:text-primary underline"/></Link>
