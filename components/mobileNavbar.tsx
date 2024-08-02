@@ -23,12 +23,12 @@ export function MobileNavbar () {
 
             <SheetTrigger>
                 <Button>
-                <Menu className="h-4 c"/>
+                <Menu className=" scroll-smooth h-4 c"/>
                 </Button>
             </SheetTrigger>
 
             <SheetContent>
-                <div className="mt-5 px-2 space-y-1 flex-col justify-end flex">
+                <div className=" scroll-smooth mt-5 px-2 space-y-1 flex-col justify-end flex">
                     {navItems.map((item, index) => (
                         <Link key={index} href={item.href} className={cn(location === item.href ? 'bg-muted' : 'hover:bg-muted hover:bg-opacity-75%', 'group flex items-center px-2 py-2 text-md font-medium rounded-md')}>
                             {item.name}
