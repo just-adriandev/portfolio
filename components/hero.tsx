@@ -32,8 +32,8 @@ export  function Hero() {
                             1000,
                             'Investimentos',
                             1000,
-
-
+                            'Inteligência artificial',
+                            1000,
                         ]}
                         wrapper="span"
                         speed={50}
