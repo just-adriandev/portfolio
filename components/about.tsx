@@ -7,8 +7,11 @@ import AboutTabs from "../components/tabs";
 export default function About() {
     return (
         <section className=" mt-8">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
-                <Image src={nerd} alt="nerd image" width={300} height={300} className="hidden sm:flex mx-auto align-top"/>
+            <div className="md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 justify-items-start">
+
+                <div className="flex md:mx-auto max-h-full self-start ">
+                <Image src={nerd} alt="nerd image" width={400} height={200} className="hidden sm:flex"/>
+                </div>
 
                 <div>
                     <h1 className="text-primary text-5xl font-bold ">Sobre mim</h1>
@@ -19,7 +22,7 @@ export default function About() {
                     para ampliar minhas experiências e colaborar com equipes ou
                     individualmente. <br /> <br />
 
-                    Costumo usar React/NextJs nos meus projetos, mas não tenho limitações para trabalhar com outras tecnologias, gosto de aprender e me testar, meu estilo favorito de trabalho é o minimalista, gosto de entregar projetos completos e sólidos porém com um toque de simplicidade que faz toda a diferença.
+                    Costumo usar React/NextJs nos meus projetos, mas não tenho limitações para trabalhar com outras tecnologias, gosto de aprender e me testar, meu estilo favorito de trabalho é o minimalista, gosto de entregar projetos completos e sólidos porém com um toque de simplicidade.
 
                     </p>
                     <div className="flex flex-row mt-8">

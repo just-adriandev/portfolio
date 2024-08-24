@@ -11,7 +11,7 @@ import Image from "next/image";
 export const  navItems = [
     {
         name: "Inicio",
-        href: "#",
+        href: "#home",
     },
     {
         name: "Visão geral",
@@ -33,7 +33,7 @@ export function Navbar(){
     
 
     return(
-        <nav className=" scroll-smooth mb-10 sm:mb-0 h-[14vh] flex items-center fixed z-10 w-full bg-opacity-90 bg-[#121212]  ">
+        <nav id='home' className=" scroll-smooth mb-10 sm:mb-0 h-[14vh] flex items-center fixed z-10 w-full bg-opacity-90 bg-[#121212]  ">
             <div className="container justify-between flex items-center">
 
                 <div>

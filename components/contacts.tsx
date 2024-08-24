@@ -1,7 +1,4 @@
 'use client'
-import Image from "next/image";
-import nerd from '../public/nerdimage.png'
-import AboutTabs from "../components/tabs";
 import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 

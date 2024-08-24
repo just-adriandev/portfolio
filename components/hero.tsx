@@ -4,17 +4,16 @@ import pfp from '../public/pfp.jpeg'
 import { Button } from './ui/button'
 import { Download, Mail } from 'lucide-react'
 import { TypeAnimation } from 'react-type-animation';
-import Link from 'next/link'
 
 export  function Hero() {
     return (
-        <section className=' mt-28 md:mt-20'>
+        <section className='mt-28 md:mt-25'>
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className=" col-span-7 place-self-center text-center sm:text-left w-full sm:w-fit px-6 py-3">
                     <h1 className="mb-4 text-5xl sm:text-7xl font-extrabold">Oi, eu sou o Adrian!</h1>
                     <p className="text-lg lg:text-xl mb-6 text-muted-foreground h-[100px] ">
                         Desenvolvedor web full-stack, curioso profissional e apaixonado por 
-                        <span className=' ml-2 text-primary'>
+                        <span className=' text-3xl ml-2 text-primary'>
                         <TypeAnimation
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
@@ -34,6 +33,8 @@ export  function Hero() {
                             1000,
                             'Inteligência artificial',
                             1000,
+                            'Livros',
+                            1000,
                         ]}
                         wrapper="span"
                         speed={50}
@@ -45,12 +46,13 @@ export  function Hero() {
                     <div className='mt-2 flex mx-auto h-12 md:h-16'>
                         <div className=' mb-2 flex gap-x-3 mx-auto'>
                         <a href="mailto:adrianspk1@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <Button variant={'secondary'} className='border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'>
+                        <Button variant={'secondary'} className='hover:bg-primary hover:text-black border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'>
                             <Mail className='w-4 h-4 mr-1'/> Entre em contato
                         </Button>
                         </a>
-                            <a href='/CURRICULO.pdf' download='curriculo.pdf'><Button variant={'secondary'} className='border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'><Download className='w-4 h-4 mr-1'/> Curriculo</Button></a>
-
+                            <a href='/CURRICULO.pdf' download='curriculo.pdf'>
+                            <Button variant={'secondary'} className='hover:bg-primary hover:text-black border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'><Download className='w-4 h-4 mr-1'/> Curriculo</Button>
+                            </a>
                             </div>
                     </div>
                 </div>

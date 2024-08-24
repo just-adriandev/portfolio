@@ -81,7 +81,7 @@ export default function Projects() {
 
             <div className="p-4 flex flex-wrap gap-y-2 mb-4">
               {projeto.tags.map((tag, index) => (
-                <span key={index} className="hover:cursor-pointer bg-yellow-600 rounded-full px-3 py-2 flex text-sm mr-2">{tag}</span>
+                <span key={index} className="hover:cursor-pointer bg-slate-800 hover:text-primary rounded-full px-3 py-2 flex text-sm mr-2">{tag}</span>
               ))}
             </div>
           </div>
