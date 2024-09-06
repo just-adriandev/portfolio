@@ -46,12 +46,12 @@ export  function Hero() {
                     <div className='mt-2 flex mx-auto h-12 md:h-16'>
                         <div className=' mb-2 flex gap-x-3 mx-auto'>
                         <a href="mailto:adrianspk1@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <Button variant={'secondary'} className='hover:bg-primary hover:text-black border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'>
+                        <Button variant={'secondary'} className='transition duration-500 ease-in-out hover:bg-primary hover:text-black border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'>
                             <Mail className='w-4 h-4 mr-1'/> Entre em contato
                         </Button>
                         </a>
                             <a href='/CURRICULO.pdf' download='curriculo.pdf'>
-                            <Button variant={'secondary'} className='hover:bg-primary hover:text-black border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'><Download className='w-4 h-4 mr-1'/> Curriculo</Button>
+                            <Button variant={'secondary'} className='transition duration-500 ease-in-out hover:bg-primary hover:text-black border border-primary w-full sm:w-fit px-6 py-3 h-full rounded-full'><Download className='w-4 h-4 mr-1'/> Curriculo</Button>
                             </a>
                             </div>
                     </div>

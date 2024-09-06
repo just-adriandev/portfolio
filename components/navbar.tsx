@@ -50,7 +50,7 @@ export function Navbar(){
                                     {navItems.map((item, index) =>(
                                         <NavigationMenuItem key={index}>
                                             <Link href={item.href} legacyBehavior passHref>
-                                                <NavigationMenuLink className={cn(pathname === item.href ? 'font-bold text-2xl bg-muted' : 'hover:bg-opacity-75%', 'hover:bg-opacity-75%  hover:bg-muted group flex gap-x-6 p-3 text-1xl rounded-md')}>{item.name}</NavigationMenuLink>
+                                                <NavigationMenuLink className={cn(pathname === item.href ? 'font-bold text-2xl bg-muted' : 'hover:bg-opacity-75%', 'hover:bg-opacity-75% transition duration-500 ease-in-out hover:bg-muted group flex gap-x-6 p-3 text-1xl rounded-md')}>{item.name}</NavigationMenuLink>
                                             </Link>
                                         </NavigationMenuItem>
                                     ))}

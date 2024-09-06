@@ -71,17 +71,17 @@ export default function Projects() {
             </div>
 
             <div className=" p-4 flex gap-x-6 mt-4 mb-5 text-lg text-muted-foreground">
-              <a href={projeto.link} target="_blank" rel="noopener noreferrer" className="flex hover:text-primary items-center underline">
+              <a href={projeto.link} target="_blank" rel="noopener noreferrer" className="flex transition duration-500 ease-in-out hover:text-primary items-center underline">
                 <GlobeIcon className="w-4 h-4 mr-1" /> Ver em produção.
               </a>
-              <a href={projeto.githublink} target="_blank" rel="noopener noreferrer" className="flex hover:text-primary items-center underline">
+              <a href={projeto.githublink} target="_blank" rel="noopener noreferrer" className="flex transition duration-500 ease-in-out hover:text-primary items-center underline">
                 <Github className="w-4 h-4 mr-1" /> Ver no Github.
               </a>
             </div>
 
             <div className="p-4 flex flex-wrap gap-y-2 mb-4">
               {projeto.tags.map((tag, index) => (
-                <span key={index} className="hover:cursor-pointer bg-slate-800 hover:text-primary rounded-full px-3 py-2 flex text-sm mr-2">{tag}</span>
+                <span key={index} className="transition duration-500 ease-in-out hover:cursor-pointer bg-slate-800 hover:text-primary rounded-full px-3 py-2 flex text-sm mr-2">{tag}</span>
               ))}
             </div>
           </div>
