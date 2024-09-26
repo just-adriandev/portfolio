@@ -1,6 +1,7 @@
 'use client'
-import { Github, Linkedin, Mail } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 
 export default function Contacts() {
@@ -11,7 +12,7 @@ export default function Contacts() {
                 <div>
                     <h1 className="text-primary text-5xl font-bold ">Contatos</h1>
                     <p className=" text-base md:text-lg">
-                    Aqui mostrei um pouco sobre mim, caso deseje entrar em contato comigo você pode me encontrar em um dos links abaixo, agradeço a visita e até a proxima. &#128516;
+                    Isso foi um pouco sobre mim, caso deseje entrar em contato comigo você pode me encontrar nos links disponiveis, agradeço a visita e até a proxima. &#128516;
                     </p>
                 </div>
 
@@ -23,6 +24,14 @@ export default function Contacts() {
                     </div>
                 </div>
 
+            </div>
+
+            <div className="flex mx-auto">
+                <div className="flex mx-auto m-5">
+                    <Link href="#home">
+                        <ArrowUp width={60} height={60} className="transition duration-500 ease-in-out hover:bg-primary bg-slate-800 rounded-full p-3"/>
+                    </Link>
+                </div>
             </div>
 
         </section>

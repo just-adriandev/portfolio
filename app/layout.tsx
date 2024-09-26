@@ -27,9 +27,8 @@ export default function RootLayout({
           {children}
           <About/>  
           <Projects/>
-          <Contacts/>    
-
-        </ThemeProvider>
+          <Contacts/>
+          </ThemeProvider>
         
         </body>
     </html>
