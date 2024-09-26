@@ -12,7 +12,7 @@ export default function Contacts() {
                 <div>
                     <h1 className="text-primary text-5xl font-bold ">Contatos</h1>
                     <p className=" text-base md:text-lg">
-                    Isso foi um pouco sobre mim, caso deseje entrar em contato comigo você pode me encontrar nos links disponiveis, agradeço a visita e até a proxima. &#128516;
+                    Esse foi um resumo sobre mim e o que eu faço, caso deseje entrar em contato comigo você pode me encontrar nos links disponiveis, agradeço a visita e até a proxima. &#128516;
                     </p>
                 </div>
 
