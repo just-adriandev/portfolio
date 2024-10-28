@@ -16,14 +16,13 @@ export default function About() {
                 <div>
                     <h1 className="text-primary text-5xl font-bold ">Sobre mim</h1>
                     <p className=" text-base md:text-lg">
-                    Desenvolvedor Web Full Stack formado em Gestão de tecnologia da
+                    Desenvolvedor Web Full-Stack formado em Gestão de tecnologia da
                     informação. Sempre buscando aprender mais sobre programação,
                     design, gestão de projetos e áreas relacionadas, busco oportunidades
                     para ampliar minhas experiências e colaborar com equipes ou
                     individualmente. <br /> <br />
 
-                    Costumo usar React/NextJs nos meus projetos, mas não tenho limitações para trabalhar com outras tecnologias, gosto de aprender e me testar, meu estilo favorito de trabalho é o minimalista, gosto de entregar projetos completos e sólidos porém com um toque de simplicidade.
-
+                    Costumo usar React/NextJs e PHP como base nos meus projetos, além dos otros frameworks, mas não tenho limitações para aprender e trabalhar com novas tecnologias, gosto de aprender e testar possibilidades diferentes.
                     </p>
                     <div className="flex flex-row mt-8">
                         <AboutTabs/>

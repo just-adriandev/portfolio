@@ -78,7 +78,7 @@ export default function AboutTabs() {
           
         <div><p className=" text-muted-foreground font-medium">
         Trabalhei na criação de websites do front-end ao back-end, também assumindo projetos que já estavam em andamento, utilizando NEXT.JS. Além de fazer a manutenção e otimização dos mesmos para garantir que estivessem sempre funcionando com a performance máxima. <br /> <br />
-        Entreguei produtos de alta disponibilidade, reduzindo os tempos de carregamentos em até 34%, a escalabilidade reduzindo linhas de codigos desnecessarias que resultaram em um codigo limpo, e com SEO eficiente para aumentar a visibilidade, melhorando significativamente seu alcance e engajamento em todos os aspectos.
+        Entreguei produtos de alta disponibilidade, reduzindo os tempos de carregamentos em até 20%, a escalabilidade reduzindo linhas de codigos desnecessarias que resultaram em um codigo limpo, e com SEO eficiente para aumentar a visibilidade, melhorando significativamente seu alcance e engajamento em todos os aspectos.
         </p></div>
       </TabsContent>
 
