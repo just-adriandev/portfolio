@@ -73,7 +73,7 @@ export default function AboutTabs() {
 
       <TabsContent value="exp">
         <div className=" mt-5 mb-3"><h1 className=" font-semibold text-2xl ">
-          InsideSite
+          2022 - 2024 | InsideSite
         </h1></div>
           
         <div><p className=" text-muted-foreground font-medium">
